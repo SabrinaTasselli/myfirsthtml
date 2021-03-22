@@ -151,17 +151,20 @@ video {
 h2 {
     margin-bottom: 24px;
     padding-top: 16px;
-    border-top: #b80000 2px solid;    
+    border-top: #b80000 2px solid;
+    font-family: 'Source Serif Pro', 'serif';
+    font-size: 18px;
+    font-weight: 600;
 }
-.link-button2:link {
+a.link-button2 {
+    color: #3f3f42;
+    border: #b80000 1px solid;
+    text-decoration: none;
+}
+a.link-button2:link {
     margin: 4px;
     padding: 16px;
-    border: #b80000 1px solid;
-    color: #3f3f42;
-    font-weight: bold;
-    text-decoration: none;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
 }
 .link-button2:hover {
